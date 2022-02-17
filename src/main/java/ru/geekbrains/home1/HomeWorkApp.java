@@ -8,13 +8,13 @@ public class HomeWorkApp {
         printColor();
         compareNumbers();
     }
-    public static void printThreeWords(){
+    public static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
     }
     public static void checkSumSign() {
-        int a = -2;
+        int a = 2;
         int b = 1;
         int c = a + b;
         if(c>= 0){
@@ -36,10 +36,10 @@ public class HomeWorkApp {
         }
 
     }
-    public static void compareNumbers(){
+    public static void compareNumbers() {
         int a = 2;
         int b = 3;
-        if (a >= b){
+        if (a >= b) {
             System.out.println("a >= b");
         }else {
             System.out.println("a < b");
